@@ -40,7 +40,7 @@ const Navigation = () => {
       <header>
         <div className='profile'>
           <img
-            src='src\assets\aew.jpg'
+            src='https://avatars.githubusercontent.com/u/96927347?s=400&u=fc9e442191422e8e6114c1d97a6d9cc6a9756fb1&v=4'
             alt='user-img'
             className='profile-img'
           />

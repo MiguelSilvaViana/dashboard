@@ -1,6 +1,7 @@
 import React from 'react';
 import { useContext } from 'react';
 import Header from '../components/HeaderTemplate/Header';
+import Content from '../Content/Content';
 import { ThemeContext } from '../ThemeContext';
 import './Main.css';
 
@@ -10,6 +11,7 @@ const Main = () => {
   return (
     <div className={`main ${DarkTheme && 'dark'}`}>
       <Header />
+      <Content />
     </div>
   );
 };
