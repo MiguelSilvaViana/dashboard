@@ -132,8 +132,8 @@ const Analytics = ({
             <XAxis dataKey='name' />
             <Tooltip />
             <Legend />
-            <Bar dataKey='Followers' fill='#00464e' />
-            <Bar dataKey='Earnings' fill='#810551' />
+            <Bar dataKey='Followers' fill='blue' />
+            <Bar dataKey='Earnings' fill='blue' />
           </BarChart>
         </>
       )}
@@ -162,7 +162,7 @@ const Analytics = ({
             cx='50%'
             cy='50%'
             outerRadius={50}
-            fill='#00464e'
+            fill='#9ACED7'
           />
           <Pie
             data={data04}

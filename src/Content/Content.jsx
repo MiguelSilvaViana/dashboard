@@ -218,13 +218,12 @@ const Content = () => {
           <div className='profile'>
             <img
               src='https://avatars.githubusercontent.com/u/96927347?s=400&u=fc9e442191422e8e6114c1d97a6d9cc6a9756fb1&v=4'
-              alt='github profile picture'
               className='profile-img'
             />
           </div>
 
           <div className='info'>
-            <h2 className='admin-name'>Miguel Silva</h2>
+            <h2 className='admin-name'>Miguel</h2>
             <span className='admin-about'>Full-Stack</span>
           </div>
 
@@ -240,7 +239,7 @@ const Content = () => {
       <div className='row side-rect'>
         <section>
           <CircularProgress
-            color='#810551'
+            color='#8AD1CD'
             value={value_i}
             offset={value_i_offset}
           />
@@ -255,7 +254,7 @@ const Content = () => {
           </div>
 
           <CircularProgress
-            color='#00464e'
+            color='#9ACED7'
             value={value_ii}
             offset={value_ii_offset}
           />
@@ -265,7 +264,7 @@ const Content = () => {
       <div className='row side-rect'>
         <section>
           <CircularProgress
-            color='#00464e'
+            color='#9ACED7'
             value={value_ii}
             offset={value_ii_offset}
           />
@@ -283,7 +282,7 @@ const Content = () => {
       <div className='row side-rect'>
         <section>
           <CircularProgress
-            color='#810551'
+            color='#8AD1CD'
             value={value_i}
             offset={value_i_offset}
           />
