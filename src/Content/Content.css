@@ -38,8 +38,8 @@
 
 .content .row.header {
   height: 100px;
-  --clr-i: #138983;
-  --clr-ii: #087871;
+  --clr-i: #363a06;
+  --clr-ii: #4a4f03;
 }
 
 .content .row.header:nth-child(1) {
@@ -91,8 +91,8 @@
 
 .content .row.square {
   aspect-ratio: 1;
-  --clr-i: #138983;
-  --clr-ii: #087871;
+  --clr-i: #363a06;
+  --clr-ii: #4a4f03;
 }
 
 .content .row.square::after {
@@ -112,13 +112,13 @@
   justify-content: flex-start;
   align-items: flex-start;
   grid-row: span 3;
-  --clr-i: #138983;
-  --clr-ii: #087871;
+  --clr-i: #363a06;
+  --clr-ii: #4a4f03;
 }
 
 .content .row.inv-bg {
-  --clr-i: #138983;
-  --clr-ii: #087871;
+  --clr-i: #363a06;
+  --clr-ii: #4a4f03;
 }
 
 .content .row.tall-square .tools-section {
@@ -228,8 +228,8 @@
 
 .content .row.side-rect {
   height: 150px;
-  --clr-i: #138983;
-  --clr-ii: #087871;
+  --clr-i: #363a06;
+  --clr-ii: #4a4f03;
   grid-column: span 2;
   align-items: flex-start;
   justify-content: flex-start;

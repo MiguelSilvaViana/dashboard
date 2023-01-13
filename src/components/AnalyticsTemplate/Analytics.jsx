@@ -132,8 +132,8 @@ const Analytics = ({
             <XAxis dataKey='name' />
             <Tooltip />
             <Legend />
-            <Bar dataKey='Followers' fill='blue' />
-            <Bar dataKey='Earnings' fill='blue' />
+            <Bar dataKey='Followers' fill='#363A06' />
+            <Bar dataKey='Earnings' fill='#4A4F03' />
           </BarChart>
         </>
       )}
@@ -148,8 +148,8 @@ const Analytics = ({
           <YAxis />
           <Tooltip />
           <Legend />
-          <Line type='monotone' dataKey='pv' stroke='#810551' />
-          <Line type='monotone' dataKey='uv' stroke='#00464e' />
+          <Line type='monotone' dataKey='pv' stroke='#363A06' />
+          <Line type='monotone' dataKey='uv' stroke='#4A4F03' />
         </LineChart>
       )}
 
@@ -162,7 +162,7 @@ const Analytics = ({
             cx='50%'
             cy='50%'
             outerRadius={50}
-            fill='#9ACED7'
+            fill='#4A4F03'
           />
           <Pie
             data={data04}
@@ -172,7 +172,7 @@ const Analytics = ({
             cy='50%'
             innerRadius={50}
             outerRadius={70}
-            fill='#810551'
+            fill='#363A06'
             label
           />
         </PieChart>

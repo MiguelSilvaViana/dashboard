@@ -239,7 +239,7 @@ const Content = () => {
       <div className='row side-rect'>
         <section>
           <CircularProgress
-            color='#8AD1CD'
+            color='#3A2E06'
             value={value_i}
             offset={value_i_offset}
           />
@@ -254,7 +254,7 @@ const Content = () => {
           </div>
 
           <CircularProgress
-            color='#9ACED7'
+            color='#3A2E06'
             value={value_ii}
             offset={value_ii_offset}
           />
@@ -264,7 +264,7 @@ const Content = () => {
       <div className='row side-rect'>
         <section>
           <CircularProgress
-            color='#9ACED7'
+            color='#3A2E06'
             value={value_ii}
             offset={value_ii_offset}
           />
@@ -282,7 +282,7 @@ const Content = () => {
       <div className='row side-rect'>
         <section>
           <CircularProgress
-            color='#8AD1CD'
+            color='#3A2E06'
             value={value_i}
             offset={value_i_offset}
           />
